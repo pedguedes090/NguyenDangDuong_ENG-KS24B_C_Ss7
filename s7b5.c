@@ -4,8 +4,8 @@ int main(){
 	
 	int arr[5]={1,64,76,23,52};
 	int max, min;	
-	max = num[0];
-	min = num[0];	
+	max = arr[0];
+	min = arr[0];	
 	for(int i=0;i<5; i++){
 		if (max < arr[i]){
 			max=arr[i];
